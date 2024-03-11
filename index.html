@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap"
+      rel="stylesheet"
+    />
+
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Margo_Game</title>
+  </head>
+  <body>
+    <div id="canvas" oncontextmenu="return false">
+      <p
+        class="p"
+        style="
+          position: absolute;
+          z-index: 20;
+          font-size: 25px;
+          background-color: #dfdeded7;
+          padding: 12px;
+          display: none;
+        "
+      ></p>
+      <div class="Background">
+       
+      </div>
+      <div id="final-timer-canvas">
+        <p id="final-timer-text">
+        </p>
+      </div>
+      <div class="Hero_Container">
+        <img class="imgHero" src="./pictures/hero_position.png" alt="" />
+      </div>
+      <div class="sobitie"></div>
+      <img src="./pictures/fullscreen.png" alt="" id="fsBtn" />
+      <img src="./pictures/refresh.png" alt="" id="RestartBtn" />
+      <div id="jump_block">
+        <img src="./pictures/hero_position.png" alt="" />
+        <div></div>
+      </div>
+      <div id="hit_block">
+        <img src="./pictures/hero_position.png" alt="" />
+        <div></div>
+      </div>
+
+      <div class="noclickH"></div>
+      <div class="noclickJ"></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
